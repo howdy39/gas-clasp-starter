@@ -1,4 +1,4 @@
-# gas-clasp-boilerplate
+# gas-clasp-starter
 
 A boilerplate for Google Apps Script Applications make by Node.js.
 
