@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/howdy39/gas-clasp-starter.git"
   },
-  "keywords": ["gas","google-apps-script"],
+  "keywords": ["gas","google-apps-script","clasp"],
   "author": "howdy39",
   "license": "MIT",
   "bugs": {
