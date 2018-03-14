@@ -1,0 +1,20 @@
+{
+  "name": "gas-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howdy39/gas-boilerplate.git"
+  },
+  "keywords": ["gas","google-apps-script"],
+  "author": "howdy39",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/howdy39/gas-boilerplate/issues"
+  },
+  "homepage": "https://github.com/howdy39/gas-boilerplate#readme"
+}
