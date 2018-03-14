@@ -10,3 +10,4 @@ A boilerplate for Google Apps Script Applications make by Node.js.
 ## Getting Started
 
 ## License
+This software is released under the MIT License, see LICENSE.txt.
