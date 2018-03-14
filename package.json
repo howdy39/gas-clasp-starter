@@ -1,5 +1,5 @@
 {
-  "name": "gas-boilerplate",
+  "name": "gas-clasp-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/howdy39/gas-boilerplate.git"
+    "url": "git+https://github.com/howdy39/gas-clasp-starter.git"
   },
   "keywords": ["gas","google-apps-script"],
   "author": "howdy39",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/howdy39/gas-boilerplate/issues"
+    "url": "https://github.com/howdy39/gas-clasp-starter/issues"
   },
-  "homepage": "https://github.com/howdy39/gas-boilerplate#readme"
+  "homepage": "https://github.com/howdy39/gas-clasp-starter#readme"
 }
