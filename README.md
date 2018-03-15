@@ -5,6 +5,7 @@ A boilerplate for Google Apps Script Applications make by Node.js.
 ## Tech Stack
 - [google/clasp](https://github.com/google/clasp)
 - [webpack](https://webpack.js.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ## Prerequisites
 - [Node.js](https://nodejs.org/)
