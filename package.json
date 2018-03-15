@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack && cp src/appsscript.json dist"
+    "build": "npm run lint && webpack && cp src/appsscript.json dist",
+    "lint": "tslint src/**/*.ts"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "cp": "^0.2.0",
     "gas-webpack-plugin": "^0.2.1",
     "ts-loader": "^4.0.1",
+    "tslint": "^5.9.1",
     "typescript": "^2.7.2",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12"
