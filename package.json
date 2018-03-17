@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run lint && webpack && cpx src/appsscript.json dist",
+    "test": "jest",
+    "build": "npm run lint && npm run test && webpack && cpx src/appsscript.json dist",
     "lint": "tslint --fix src/**/*.ts"
   },
   "repository": {
@@ -25,9 +25,12 @@
   "homepage": "https://github.com/howdy39/gas-clasp-starter#readme",
   "devDependencies": {
     "@types/google-apps-script": "0.0.21",
+    "@types/jest": "^22.2.0",
     "cpx": "^1.5.0",
     "gas-webpack-plugin": "^0.2.1",
+    "jest": "^22.4.2",
     "prettier": "^1.11.1",
+    "ts-jest": "^22.4.1",
     "ts-loader": "^4.0.1",
     "tslint": "^5.9.1",
     "tslint-config-prettier": "^1.10.0",
@@ -35,5 +38,19 @@
     "typescript": "^2.7.2",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(src/.+(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   }
 }
