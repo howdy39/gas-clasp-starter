@@ -8,6 +8,7 @@ A boilerplate for Google Apps Script Applications make by Node.js.
 - [TypeScript](https://www.typescriptlang.org/)
 - [TSLint](https://palantir.github.io/tslint/)
 - [Prettier](https://prettier.io/)
+- [Jest](https://facebook.github.io/jest/)
 
 ## Prerequisites
 - [Node.js](https://nodejs.org/)
