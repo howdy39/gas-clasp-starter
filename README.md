@@ -1,6 +1,5 @@
 # gas-clasp-starter
-
-A boilerplate for Google Apps Script Applications make by Node.js.
+A starter template for Google Apps Script by Clasp
 
 ## Tech Stack
 - [google/clasp](https://github.com/google/clasp)
