@@ -30,7 +30,6 @@ npm install
 #### Open `.clasp.json`, change scriptId
 What is scriptId ? https://github.com/google/clasp#scriptid-required
 ```
-// .clasp.json
 {
   "scriptId": <your_script_id>,
   "rootDir": "dist"
