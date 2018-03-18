@@ -1,10 +1,16 @@
-import { add } from './util';
+import { getDayFormat } from './util';
 jest.unmock('./util');
 
 describe('util', () => {
-  describe('add()', () => {
-    it('should be add', () => {
-      expect(add(3, 5)).toBe(8);
+  describe('getDayFormat()', () => {
+    it('no parameter', () => {
+      const now = new Date();
+      const expected = `${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate()}`;
+      expect(getDayFormat()).toBe(expected);
+    });
+    it('with date parameter', () => {
+      const date = new Date(2018, 2, 9);
+      expect(getDayFormat(date)).toBe('2018-3-9');
     });
   });
 });

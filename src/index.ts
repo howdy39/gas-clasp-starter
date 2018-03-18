@@ -1,8 +1,8 @@
-import { getMessage } from './message';
-import { add } from './util';
+import { SheetService } from './sheet.service';
 
 declare const global: any;
-global.printLog = (): void => {
-  Logger.log(getMessage('TypeScript'));
-  Logger.log(add(10, 20));
+
+global.createNewFile = (): void => {
+  const ss = SheetService.createInitialFile('New file');
+  ss.getRange('A2').setValue('Happy gas!');
 };
