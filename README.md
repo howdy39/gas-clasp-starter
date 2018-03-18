@@ -4,7 +4,7 @@ A starter template for Google Apps Script by Clasp
 ## Tech Stack
 - [google/clasp](https://github.com/google/clasp)
 - [webpack](https://webpack.js.org/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [TypeScript](http://www.typescriptlang.org/)
 - [TSLint](https://palantir.github.io/tslint/)
 - [Prettier](https://prettier.io/)
 - [Jest](https://facebook.github.io/jest/)
