@@ -1,6 +1,6 @@
 import { SheetService } from './sheet.service';
 
-declare const global: any;
+declare var global: any;
 
 global.createNewFile = (): void => {
   const ss = SheetService.createInitialFile('New file');
