@@ -1,5 +1,8 @@
 # gas-clasp-starter
-A starter template for Google Apps Script by Clasp
+A starter template for Google Apps Script by [google/clasp](https://github.com/google/clasp)
+
+## Article
+[(Japanese) Google Apps Script をローカル環境で快適に開発するためのテンプレートを作りました](https://qiita.com/howdy39/items/0e799a9bfc1d3bccf6e5)
 
 ## Tech Stack
 - [google/clasp](https://github.com/google/clasp)
@@ -55,6 +58,13 @@ npm run build
 ```
 clasp push
 ```
+
+## Others
+### howdy39/gas-clasp-library
+[howdy39/gas-clasp-library](https://github.com/howdy39/gas-clasp-library) is sample project made with [Google Apps Script Libraries](https://developers.google.com/apps-script/guides/libraries).   
+also, `gas-clasp-library` use circle CI.
+
+
 
 ## License
 This software is released under the MIT License, see LICENSE.txt.
