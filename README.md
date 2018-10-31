@@ -64,6 +64,9 @@ clasp push
 [howdy39/gas-clasp-library](https://github.com/howdy39/gas-clasp-library) is sample project made with [Google Apps Script Libraries](https://developers.google.com/apps-script/guides/libraries).   
 also, `gas-clasp-library` use circle CI.
 
+### takanakahiko/template-clasp
+[takanakahiko/template-clasp](github.com/takanakahiko/template-clasp) was made based on gas-clasp-starter and [SAO](https://github.com/saojs/sao).
+
 
 
 ## License
