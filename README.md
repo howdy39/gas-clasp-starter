@@ -65,7 +65,7 @@ clasp push
 also, `gas-clasp-library` use circle CI.
 
 ### takanakahiko/template-clasp
-[takanakahiko/template-clasp](https://github.com/takanakahiko/template-clasp) was made based on gas-clasp-starter and [SAO](https://github.com/saojs/sao).
+[takanakahiko/sao-clasp](https://github.com/takanakahiko/sao-clasp) was made based on gas-clasp-starter and [SAO](https://github.com/saojs/sao).
 
 
 
