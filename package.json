@@ -25,21 +25,21 @@
   },
   "homepage": "https://github.com/howdy39/gas-clasp-starter#readme",
   "devDependencies": {
-    "@types/google-apps-script": "0.0.32",
-    "@types/jest": "^23.3.10",
+    "@types/google-apps-script": "0.0.36",
+    "@types/jest": "^23.3.13",
     "cpx": "^1.5.0",
-    "gas-webpack-plugin": "^0.3.0",
-    "jest": "^23.6.0",
-    "prettier": "^1.15.3",
-    "rimraf": "^2.6.2",
+    "gas-webpack-plugin": "^1.0.2",
+    "jest": "^24.0.0",
+    "prettier": "^1.16.1",
+    "rimraf": "^2.6.3",
     "ts-jest": "^23.10.5",
-    "ts-loader": "^5.3.1",
-    "tslint": "^5.11.0",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.17.0",
     "tslint-plugin-prettier": "^2.0.1",
-    "typescript": "^3.2.2",
-    "webpack": "^4.27.1",
-    "webpack-cli": "^3.1.2"
+    "typescript": "^3.2.4",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
   },
   "jest": {
     "transform": {
