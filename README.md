@@ -26,7 +26,6 @@ rm -Rf .git
 
 ### Install dependencies
 ```
-cd <project_name>
 npm install
 ```
 
