@@ -20,6 +20,7 @@ A starter template for Google Apps Script by [google/clasp](https://github.com/g
 ### Clone the repository
 ```
 git clone --depth=1 https://github.com/howdy39/gas-clasp-starter.git <project_name>
+cd <project_name>
 rm -Rf .git
 ```
 
