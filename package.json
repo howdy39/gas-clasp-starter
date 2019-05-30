@@ -38,7 +38,7 @@
     "tslint-config-prettier": "1.18.0",
     "tslint-plugin-prettier": "2.0.1",
     "typescript": "3.5.1",
-    "webpack": "4.30.0",
+    "webpack": "4.32.2",
     "webpack-cli": "3.3.2"
   },
   "jest": {
