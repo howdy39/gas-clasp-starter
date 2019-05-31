@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/howdy39/gas-clasp-starter#readme",
   "devDependencies": {
-    "@types/google-apps-script": "0.0.45",
+    "@types/google-apps-script": "0.0.53",
     "@types/jest": "24.0.13",
     "cpx": "1.5.0",
     "gas-webpack-plugin": "1.0.2",
