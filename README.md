@@ -8,7 +8,7 @@ A starter template for Google Apps Script by [google/clasp](https://github.com/g
 - [google/clasp](https://github.com/google/clasp)
 - [webpack](https://webpack.js.org/)
 - [TypeScript](http://www.typescriptlang.org/)
-- [TSLint](https://palantir.github.io/tslint/)
+- [ESLint](https://github.com/eslint/eslint)
 - [Prettier](https://prettier.io/)
 - [Jest](https://facebook.github.io/jest/)
 
