@@ -1,5 +1,6 @@
 import { SheetService } from './sheet.service';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 declare let global: any;
 
 global.createNewFile = (): void => {
