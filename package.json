@@ -7,7 +7,7 @@
     "lint": "eslint --fix src/**/*.ts",
     "test": "jest",
     "build": "npm run lint && npm run test && rimraf dist && webpack && cpx src/appsscript.json dist && cpx \"src/**/*.html\" dist",
-    "deploy": "npm run build && clasp push"
+    "push": "npm run build && clasp push"
   },
   "repository": {
     "type": "git",
