@@ -60,6 +60,14 @@ npm run build
 clasp push
 ```
 
+
+
+## Advanced
+### Using Es6 with Apps Script
+[Using Es6 with Apps Script](http://ramblings.mcpher.com/Home/excelquirks/gassnips/es6shim)
+
+
+
 ## Others
 ### howdy39/gas-clasp-library
 [howdy39/gas-clasp-library](https://github.com/howdy39/gas-clasp-library) is sample project made with [Google Apps Script Libraries](https://developers.google.com/apps-script/guides/libraries).   
