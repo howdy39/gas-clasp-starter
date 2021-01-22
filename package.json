@@ -31,7 +31,7 @@
     "@typescript-eslint/parser": "4.4.1",
     "cpx": "1.5.0",
     "eslint": "7.11.0",
-    "eslint-config-prettier": "6.13.0",
+    "eslint-config-prettier": "7.2.0",
     "eslint-plugin-prettier": "3.1.4",
     "gas-webpack-plugin": "1.2.0",
     "jest": "26.5.3",
