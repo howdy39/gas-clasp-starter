@@ -26,7 +26,7 @@
   "homepage": "https://github.com/howdy39/gas-clasp-starter#readme",
   "devDependencies": {
     "@types/google-apps-script": "1.0.37",
-    "@types/jest": "26.0.24",
+    "@types/jest": "27.0.2",
     "@typescript-eslint/eslint-plugin": "4.29.0",
     "@typescript-eslint/parser": "4.29.0",
     "cpx": "1.5.0",
