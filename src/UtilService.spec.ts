@@ -1,16 +1,16 @@
-import { getDayFormat } from './util';
-jest.unmock('./util');
+import { UtilService } from './UtilService';
+jest.unmock('./UtilService');
 
-describe('util', () => {
+describe('UtilService', () => {
   describe('getDayFormat()', () => {
     it('no parameter', () => {
       const now = new Date();
       const expected = `${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate()}`;
-      expect(getDayFormat()).toBe(expected);
+      expect(UtilService.getDayFormat()).toBe(expected);
     });
     it('with date parameter', () => {
       const date = new Date(2018, 2, 9);
-      expect(getDayFormat(date)).toBe('2018-3-9');
+      expect(UtilService.getDayFormat(date)).toBe('2018-3-9');
     });
   });
 });

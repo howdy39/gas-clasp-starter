@@ -1,12 +1,9 @@
 # gas-clasp-starter
 A starter template for Google Apps Script by [google/clasp](https://github.com/google/clasp)
 
-## Article
-[(Japanese) Google Apps Script をローカル環境で快適に開発するためのテンプレートを作りました](https://qiita.com/howdy39/items/0e799a9bfc1d3bccf6e5)
-
 ## Tech Stack
 - [google/clasp](https://github.com/google/clasp)
-- [webpack](https://webpack.js.org/)
+- [rollup](https://rollupjs.org/)
 - [TypeScript](http://www.typescriptlang.org/)
 - [ESLint](https://github.com/eslint/eslint)
 - [Prettier](https://prettier.io/)
@@ -39,6 +36,18 @@ What is scriptId ? https://github.com/google/clasp#scriptid-required
 }
 ```
 
+#### Open `.package.json`, change properties
+The name, version, description, and homepage properties are output as comments at the beginning of the output GAS.
+
+```
+...
+  "name": "your application name",
+  "version": "your application version",
+  "description": "your application description",
+  "homepage" "your repository url"
+...
+```
+
 #### Open `src/appsscript.json`, change timeZone (optional)
 [Apps Script Manifests](https://developers.google.com/apps-script/concepts/manifests)
 ```
@@ -50,6 +59,7 @@ What is scriptId ? https://github.com/google/clasp#scriptid-required
 }
 ```
 
+
 ### Development and build project
 ```
 npm run build
@@ -59,23 +69,6 @@ npm run build
 ```
 clasp push
 ```
-
-
-
-## Advanced
-### Using Es6 with Apps Script
-[Using Es6 with Apps Script](http://ramblings.mcpher.com/Home/excelquirks/gassnips/es6shim)
-
-
-
-## Others
-### howdy39/gas-clasp-library
-[howdy39/gas-clasp-library](https://github.com/howdy39/gas-clasp-library) is sample project made with [Google Apps Script Libraries](https://developers.google.com/apps-script/guides/libraries).   
-also, `gas-clasp-library` use circle CI.
-
-### takanakahiko/sao-clasp
-[takanakahiko/sao-clasp](https://github.com/takanakahiko/sao-clasp) was made based on gas-clasp-starter and [SAO](https://github.com/saojs/sao).
-
 
 
 ## License
