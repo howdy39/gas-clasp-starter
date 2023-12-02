@@ -36,6 +36,18 @@ What is scriptId ? https://github.com/google/clasp#scriptid-required
 }
 ```
 
+#### Open `.package.json`, change properties
+The name, version, description, and homepage properties are output as comments at the beginning of the output GAS.
+
+```
+...
+  "name": "your application name",
+  "version": "your application version",
+  "description": "your application description",
+  "homepage" "your repository url"
+...
+```
+
 #### Open `src/appsscript.json`, change timeZone (optional)
 [Apps Script Manifests](https://developers.google.com/apps-script/concepts/manifests)
 ```
@@ -46,6 +58,7 @@ What is scriptId ? https://github.com/google/clasp#scriptid-required
   "exceptionLogging": "STACKDRIVER"
 }
 ```
+
 
 ### Development and build project
 ```
