@@ -1,7 +1,8 @@
 import typescript from 'rollup-plugin-typescript2';
 import cleanup from 'rollup-plugin-cleanup';
 import license from 'rollup-plugin-license';
-import { fileURLToPath } from 'url';
+import packageJson from "./package.json" assert { type: "json" };
+
 
 export default {
   input: 'src/index.ts',
@@ -12,11 +13,12 @@ export default {
   plugins: [
     cleanup({ comments: 'none', extensions: ['.ts'] }),
     license({
-      banner: {
-        content: {
-          file: fileURLToPath(new URL('license-header.txt', import.meta.url)),
-        },
-      },
+      banner: [
+        `Name: ${packageJson.name}`,
+        `Version: ${packageJson.version}`,
+        `Description: ${packageJson.description}`,
+        `@see ${packageJson.homepage}`
+      ].join('\n'),
     }),
     typescript(),
   ],
