@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean": "rimraf dist",
     "lint": "eslint --fix src/**/*.ts",
     "test": "jest",
-    "build": "npm run lint && npm run test && rimraf dist && webpack && cpx src/appsscript.json dist && cpx \"src/**/*.html\" dist",
+    "build": "npm run lint && npm run test && npm run clean && webpack && cpx src/appsscript.json dist && cpx \"src/**/*.html\" dist",
     "push": "npm run build && clasp push"
   },
   "repository": {
