@@ -12,6 +12,7 @@ A starter template for Google Apps Script by [google/clasp](https://github.com/g
 ## Prerequisites
 - [Node.js](https://nodejs.org/)
 - [google/clasp](https://github.com/google/clasp)
+  - Global installation is recommended 
 
 ## Getting Started
 ### Clone the repository
