@@ -1,6 +1,6 @@
 {
   "name": "gas-clasp-starter",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "gas-clasp-starter project.",
   "homepage": "https://github.com/howdy39/gas-clasp-starter",
   "main": "build/index.js",
